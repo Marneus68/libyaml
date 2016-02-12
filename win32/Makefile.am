@@ -19,6 +19,13 @@ VS2008_FILES = vs2008/libyaml.sln vs2008/yaml.vcproj vs2008/yamldll.vcproj	\
 			   vs2008/run_loader.vcproj vs2008/run_emitter.vcproj vs2008/run_dumper.vcproj	\
 			   vs2008/example_reformatter.vcproj vs2008/example_reformatter_alt.vcproj	\
 			   vs2008/example_deconstructor.vcproj vs2008/example_deconstructor_alt.vcproj
+			   
+VS2015_FILES = vs2015/libyaml.sln vs2015/yaml.vcproj vs2015/yamldll.vcproj	\
+			   vs2015/test_version.vcproj vs2015/test_reader.vcproj	\
+			   vs2015/run_scanner.vcproj vs2015/run_parser.vcproj	\
+			   vs2015/run_loader.vcproj vs2015/run_emitter.vcproj vs2008/run_dumper.vcproj	\
+			   vs2015/example_reformatter.vcproj vs2015/example_reformatter_alt.vcproj	\
+			   vs2015/example_deconstructor.vcproj vs2015/example_deconstructor_alt.vcproj
 
-EXTRA_DIST = config.h $(VC6_FILES) $(VS2003_FILES) $(VS2008_FILES)
+EXTRA_DIST = config.h $(VC6_FILES) $(VS2003_FILES) $(VS2008_FILES) $(VS2015_FILES)
 
